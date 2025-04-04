@@ -1,0 +1,9 @@
+streamlit==1.32.2
+torch>=2.0.0
+transformers>=4.36.0
+PyMuPDF==1.23.7
+chromadb==0.4.21
+llama-index==0.10.24
+sentence-transformers==2.2.2
+scikit-learn==1.4.1
+numpy>=1.23.0
