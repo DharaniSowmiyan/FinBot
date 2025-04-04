@@ -16,11 +16,15 @@ FinBot is an intelligent financial assistant that leverages **retrieval-augmente
 
 ## 📂 Project Structure
 
-FinBot/ │ ├── files/ # PDF files to ingest ├── app.py # Main Streamlit application ├── requirements.txt # Python dependencies ├── README.md # You're reading it now! └── .gitignore # Files to ignore in Git
-
-yaml
-Copy
-Edit
+```
+FinBot/
+│
+├── files/                   # PDF files to ingest
+├── app.py                  # Main Streamlit application
+├── requirements.txt        # Python dependencies
+├── README.md               # You're reading it now!
+└── .gitignore              # Files to ignore in Git
+```
 
 ---
 
@@ -30,56 +34,64 @@ Edit
    ```bash
    git clone https://github.com/yourusername/FinBot.git
    cd FinBot
-Create a virtual environment (optional but recommended)
+   ```
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-Install dependencies
+2. **Create a virtual environment** (optional but recommended)  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   ```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Add your PDF reports
-Place your .pdf files in the files/ folder.
+3. **Install dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Run the chatbot
+4. **Add your PDF reports**  
+   Place your `.pdf` files in the `files/` folder.
 
-bash
-Copy
-Edit
-streamlit run app.py
-🧠 Tech Stack
-Python 🐍
+5. **Run the chatbot**  
+   ```bash
+   streamlit run app.py
+   ```
 
-Streamlit
+---
 
-HuggingFace Transformers
+## 🧠 Tech Stack
 
-Zephyr-7B
+- Python 🐍  
+- Streamlit  
+- HuggingFace Transformers  
+- Zephyr-7B  
+- LlamaIndex  
+- ChromaDB  
+- PyMuPDF (fitz)  
+- scikit-learn, numpy
 
-LlamaIndex
+---
 
-ChromaDB
+## 🗣 Example Query
 
-PyMuPDF (fitz)
+> "Summarize the key financial metrics from Q4 report."
 
-scikit-learn, numpy
+> "What were the revenue highlights of Company X in 2023?"
 
-🗣 Example Query
-"Summarize the key financial metrics from Q4 report."
+---
 
-"What were the revenue highlights of Company X in 2023?"
+## 📜 License
 
+This project is licensed under the MIT License.
 
-🙌 Acknowledgments
-LlamaIndex
+---
 
-ChromaDB
+## 🙌 Acknowledgments
 
-Hugging Face
+- [LlamaIndex](https://www.llamaindex.ai/)  
+- [ChromaDB](https://www.trychroma.com/)  
+- [Hugging Face](https://huggingface.co/)
 
+---
 
+## 👤 Author
+
+Made with ❤️ by [Dharani Sowmiyan](https://github.com/DharaniSowmiyan)
