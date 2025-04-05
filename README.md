@@ -84,8 +84,4 @@ FinBot/
 - [ChromaDB](https://www.trychroma.com/)  
 - [Hugging Face](https://huggingface.co/)
 
----
 
-## 👤 Author
-
-Made with ❤️ by [Dharani Sowmiyan](https://github.com/DharaniSowmiyan)
